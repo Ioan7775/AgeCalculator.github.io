@@ -1,0 +1,83 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(135deg,#B799FF,#ACBCFF);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    overflow: hidden;
+}
+
+.container{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.title1{
+    letter-spacing: 1px;
+    position:absolute;
+    top:25%;
+    left:20%;
+    font-size: clamp(1rem,auto,3rem);
+}
+
+.title2{
+    color:yellow;
+    letter-spacing: 1px;
+    position:absolute;
+    padding-top: 1rem;
+    top:30%;
+    left:20%;
+    font-size: clamp(1rem,auto,3rem);
+}
+
+.main{
+    width: 60%;
+    height: 15%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255,0.3);
+    position: absolute;
+    left:20%;
+    right: 20%;
+    top:50%;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main input{
+    width: 60%;
+    height: 40%;
+    background-color: bisque; 
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.main button{
+    width: 20%;
+    height: 35%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: yellow;
+    font-size: 60%;
+}
+
+#result{
+    position: absolute;
+    left:20%;
+    bottom:25%;
+    display: none;
+}
+
+.number{
+    color:yellow;
+}
